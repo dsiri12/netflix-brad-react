@@ -3,15 +3,13 @@ import React from 'react'
 const Section3 = () => {
   return (
     <>
-      <div className="tab-content-item">
-        <div className="text-center">
-          <p className="text-lg">
-            Choose one plan and watch everything on Netflix
-          </p>
-          <a href="#" className="btn btn-lg">
-            Watch Free For 30 Days
-          </a>
-        </div>
+      <div className="text-center">
+        <p className="text-lg">
+          Choose one plan and watch everything on Netflix
+        </p>
+        <a href="#" className="btn btn-lg">
+          Watch Free For 30 Days
+        </a>
       </div>
 
       <table className="table">
@@ -58,7 +56,6 @@ const Section3 = () => {
             <td>Screens you can watch on at the same time</td>
             <td>1</td>
             <td>2</td>
-            <td>3</td>
             <td>4</td>
           </tr>
           <tr>
@@ -84,30 +81,30 @@ const Section3 = () => {
             <td>
               <i className="fas fa-check"></i>
             </td>
-            <tr>
-              <td>Cancel anytime</td>
-              <td>
-                <i className="fas fa-check"></i>
-              </td>
-              <td>
-                <i className="fas fa-check"></i>
-              </td>
-              <td>
-                <i className="fas fa-check"></i>
-              </td>
-            </tr>
-            <tr>
-              <td>First month free</td>
-              <td>
-                <i className="fas fa-check"></i>
-              </td>
-              <td>
-                <i className="fas fa-check"></i>
-              </td>
-              <td>
-                <i className="fas fa-check"></i>
-              </td>
-            </tr>
+          </tr>
+          <tr>
+            <td>Cancel anytime</td>
+            <td>
+              <i className="fas fa-check"></i>
+            </td>
+            <td>
+              <i className="fas fa-check"></i>
+            </td>
+            <td>
+              <i className="fas fa-check"></i>
+            </td>
+          </tr>
+          <tr>
+            <td>First month free</td>
+            <td>
+              <i className="fas fa-check"></i>
+            </td>
+            <td>
+              <i className="fas fa-check"></i>
+            </td>
+            <td>
+              <i className="fas fa-check"></i>
+            </td>
           </tr>
         </tbody>
       </table>

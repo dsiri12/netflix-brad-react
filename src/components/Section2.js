@@ -4,16 +4,16 @@ import content2_3Png from '../images/tab-content-2-3.png'
 
 const Section2 = () => {
   return (
-    <div className="tab-content-item">
+    <>
       <div className="tab-2-content-top">
-        <p classNameName="text-lg">
+        <p className="text-lg">
           Watch TV shows and movies anytime, anywhere - personalized for you.
         </p>
-        <a href="#" classNameName="btn btn-lg">
+        <a href="#" className="btn btn-lg">
           Watch Free For 30 Days
         </a>
       </div>
-      <div classNameName="tab-2-content-bottom">
+      <div className="tab-2-content-bottom">
         <div>
           <img src={content2_1Png} alt="" />
           <p className="text-md">Watch on your TV</p>
@@ -37,7 +37,7 @@ const Section2 = () => {
           <p className="text-dark">Watch right on Netflix.com</p>
         </div>
       </div>
-    </div>
+    </>
   )
 }
 
