@@ -1,6 +1,6 @@
-const ContentTabs = (props) => {
-  console.log(props)
-  const { tabNum, setTabNum } = props
+const ContentTabs = ({ tabNum, setTabNum }) => {
+  // console.log(props)
+  // const { tabNum, setTabNum } = props
 
   return (
     <section className="tabs">
